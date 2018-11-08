@@ -1,6 +1,8 @@
 <?php
   include('dbconnect.php');
-  $offre = mysqli_query($mysqli, 'SELECT * FROM offre ORDER BY date_limite DESC LIMIT 10');
+  $offre = $db->prepare('SELECT * FROM offre ORDER BY date_limite DESC LIMIT 10');
+  $offre->execute();
+
  ?>
 <!DOCTYPE html>
 <html>
@@ -12,10 +14,12 @@
 <body>
   <ul>
 
-        <?php while($o = $offre->fetch_assoc())
+        <?php while($o = $offre->fetch())
         {?>
 
           <li><?= $o['titre_offre']?></li>
+          <ul><?=$o['desc_offre']?></ul>
+          <ul><?=$o['date_limite']?></ul>
   <?php }?>
   <ul>
 </body>

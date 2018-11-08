@@ -1,11 +1,3 @@
 <?php
-$serveur = "localhost";
-$base = "videorecrut";
-$user = "root";
-$pass = "root";
-
-$mysqli = new mysqli($serveur, $user, $pass, $base);
-if ($mysqli->connect_error) {
-    die('Erreur de connexion ('.$mysqli->connect_errno.')'. $mysqli->connect_error);
-}
+  $db = new PDO("mysql:host=127.0.0.1;dbname=videorecrut;charset=utf8", "root", "root");
 ?>

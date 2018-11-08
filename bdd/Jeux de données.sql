@@ -53,7 +53,17 @@ VALUES(06, "HTML");
 INSERT INTO OFFRE(id_offre, titre_offre, video_offre, desc_offre, date_limite, type_offre)
 VALUES(01, "RECHERCHE DEVELOPPEUR JAVA",  "/upload/video404CHARLESJAVA.mp4", "JE CHERCHE UN DEVELOPPEUR JAVA COMPETENT", "2018-11-10", 01);
 INSERT INTO OFFRE(id_offre, titre_offre, video_offre, desc_offre, date_limite, type_offre)
-VALUES(02, "RECHERCHE DEVELOPPEUR C#",  "/upload/video405BORISC#.mp4", "JE CHERCHE UN DEVELOPPEUR C# SERIEUX", "2018-25-11", 02);
+VALUES(02, "RECHERCHE DEVELOPPEUR C#",  "/upload/video405BORISC#.mp4", "JE CHERCHE UN DEVELOPPEUR C# SERIEUX", "2018-11-25", 02);
+INSERT INTO OFFRE(id_offre, titre_offre, video_offre, desc_offre, date_limite, type_offre)
+VALUES(03, "RECHERCHE DEVELOPPEUR PHP",  "/upload/video408JORISPHP.mp4", "JE CHERCHE UN DEVELOPPEUR PHP ASSIDU", "2018-11-26", 02);
+INSERT INTO OFFRE(id_offre, titre_offre, video_offre, desc_offre, date_limite, type_offre)
+VALUES(04, "RECHERCHE DEVELOPPEUR CSS",  "/upload/video409DORLISCSS.mp4", "JE CHERCHE UN DEVELOPPEUR CSS PROPRE", "2018-11-27", 03);
+INSERT INTO OFFRE(id_offre, titre_offre, video_offre, desc_offre, date_limite, type_offre)
+VALUES(05, "RECHERCHE DEVELOPPEUR JAVASCRIPT",  "/upload/video410ROGERJS.mp4", "JE CHERCHE UN DEVELOPPEUR JAVASCRIPT ORIGINAL", "2018-11-28", 03);
+INSERT INTO OFFRE(id_offre, titre_offre, video_offre, desc_offre, date_limite, type_offre)
+VALUES(06, "RECHERCHE DEVELOPPEUR HTML",  "/upload/video411BERTRANDHTML.mp4", "JE CHERCHE UN DEVELOPPEUR HTML CURIEUX", "2018-11-29", 01);
+INSERT INTO OFFRE(id_offre, titre_offre, video_offre, desc_offre, date_limite, type_offre)
+VALUES(07, "RECHERCHE DEVELOPPEUR JAVA",  "/upload/video412LORISJAVA.mp4", "JE CHERCHE UN DEVELOPPEUR JAVA PROFESSIONEL", "2018-11-30", 01);
 
 -- DONNEES CANDIDATURE --
 INSERT INTO CANDIDATURE(id_candidature, lettre_motiv, cv_candid, video_reponse, id_user, id_offre)
