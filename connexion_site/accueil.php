@@ -8,7 +8,7 @@ if (!isset($_SESSION['login'])) {
 
 <html>
 <head>
-<title>Espace membre</title>
+<title>Accueil</title>
 </head>
 
 <body>
