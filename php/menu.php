@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <title>Ekara</title>
   <link rel="stylesheet" href="CSS/MenuDesign.css">
+  
 </head>
 <div class="header">
   <h2>Ekara</h2>
