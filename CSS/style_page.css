@@ -1,0 +1,54 @@
+/*@font-face
+{
+    font-family: "Drawing_Guides";
+    src: url("Drawing_Guides.ttf");
+}
+*/
+h1
+{
+  margin-left: 50px; /**/
+}
+.offre
+{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  box-shadow: -7px 7px 20px Gray;
+  margin: 20px 0 10px 50px;
+  max-width: 50%;
+  min-width: 40%;
+  flex-wrap: wrap;
+}
+h3
+{
+  background-color: LightGray;
+  border: 2px solid red;
+  margin: 0;
+  padding-left: 10px;
+}
+h3:hover
+{
+  background-color: #BEBEBE;
+}
+.desc
+{
+  color: #606060;
+  border: 2px dashed green;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin: 0;
+  padding-left: 5px;
+  margin-right: 15px;
+
+}
+.plusmoins
+{
+  display: inline-flex;
+  align-self: flex-end;
+  color: black;
+  font-family: Calibri;
+  font-weight: bold;
+  border: 2px groove blue;
+  position: relative;
+}
