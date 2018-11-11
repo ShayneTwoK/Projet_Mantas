@@ -3,7 +3,7 @@
 //  $offre = $connexion->prepare('SELECT * FROM offre ORDER BY date_limite DESC LIMIT 10');
 //  $offre->execute();
 // c'est bon gars il y a ton msqli que t'aime tant psk tu casse les couilles
-  $offre = 'SELECT * FROM offre ORDER BY date_limite DESC LIMIT 10';
+  $offre = 'SELECT * FROM offre ORDER BY date_limite LIMIT 10';
   $offre = mysqli_query($connexion, $offre);
 
  ?>
@@ -11,7 +11,7 @@
 <html>
 <head>
   <title>Page Offre</title>
-  <meta charset="utf-8">
+  <meta charset=utf-8" />
   <link rel="stylesheet" type="text/css" href="../CSS/style_page.css" />
   <script type="text/javascript" src="../js/jquery.js"></script>
 
