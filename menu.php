@@ -16,7 +16,7 @@
   </div>
   <div class="Menu">
     <ul>
-      <a href="#1" class="1"><?php echo MENU1; ?> </a><!--
+      <a href="./PHP/connexion.php" class="1"><?php echo MENU1; ?> </a><!--
       --><a href="#2" class="2"><?php echo MENU2; ?></a><!--
       --><a href="#3" class="3"><?php echo MENU3; ?></a>
       <li>

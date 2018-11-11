@@ -5,4 +5,5 @@
   // le copie colle sur toute les pages ? ou t'aime vraiment copié collé
   // dans ce cas la sorry bro
   $connexion = mysqli_connect('localhost', 'root', 'root','videorecrut');
+  mysqli_set_charset ($connexion , 'utf8'); // affiche en utf-8 notre bdd
 ?>

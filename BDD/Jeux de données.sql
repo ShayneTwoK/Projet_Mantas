@@ -5,27 +5,27 @@ INSERT INTO TYPE_UTILISATEUR(role, poste)
 VALUES("1", "RH");
 -- DONNEES UTILISATEUR --
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Charles", "Henry", "12345", "c.henry@gmail.com", null, "0");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", "DRH", "1");
+VALUES("Boris", "Leclerc", "2222", "b.leclerc@gmail.com", "DRH", "1");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", "RH", "1");
+VALUES("Joris", "Carrefour", "0000", "J.carrefour@gmail.com", "RH", "1");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", "ARH", "1");
+VALUES("Loris", "Poridge", "1111", "l.poridge@gmail.com", "ARH", "1");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Jeuneviève", "De fontené", "6666", "j.defontené@gmail.com", null, "0");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Freddy", "Kruger", "9999", "f.kruger@gmail.com", null, "0");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Jean", "Mi", "5555", "j.mi@gmail.com", null, "0");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Jeanne", "De La Compta", "7777", "j.delacompta@gmail.com", null, "0");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Ulysse", "Revient", "4444", "u.revient@gmail.com", null, "0");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Cassandra", "Bracadabra", "8888", "c.bracadabra@gmail.com", null, "0");
 INSERT INTO UTILISATEUR(prenom, nom, mdp, mail, poste, role)
-VALUES("Charles", "Henry", "12345", "blabla@gmail.com", null, "0");
+VALUES("Capucine", "Jacobin", "3333", "blabla@gmail.com", null, "0");
 
 -- DONNEES OFFICIELLE TYPE CONTRAT --
 INSERT INTO TYPE_CONTRAT(id_type, libelle_contrat)
@@ -57,13 +57,14 @@ VALUES("RECHERCHE DEVELOPPEUR C#",  "/upload/video405BORISC#.mp4", "JE CHERCHE U
 INSERT INTO OFFRE(titre_offre, video_offre, desc_offre, date_limite, type_offre)
 VALUES("RECHERCHE DEVELOPPEUR PHP",  "/upload/video408JORISPHP.mp4", "JE CHERCHE UN DEVELOPPEUR PHP ASSIDU", "2018-11-26", 02);
 INSERT INTO OFFRE(titre_offre, video_offre, desc_offre, date_limite, type_offre)
-VALUES("RECHERCHE DEVELOPPEUR CSS",  "/upload/video409DORLISCSS.mp4", "JE CHERCHE UN DEVELOPPEUR CSS PROPRE", "2018-11-27", 03);
+VALUES("Développeur Web Front",  "/upload/video409DORLISCSS.mp4", "Vous travaillerez le full responsive avec le recueil des croquis offert par notre designer, les media queries ainsi que des connaisance en Bootstrap sont valorisés. Vous travaillerez en groupe de 3 personne répartit pour chaque client, le rémunération et de 1650€ brut, la plage horaire se situe autour de 39h par semaine.", "2018-11-07", 03);
 INSERT INTO OFFRE(titre_offre, video_offre, desc_offre, date_limite, type_offre)
 VALUES("RECHERCHE DEVELOPPEUR JAVASCRIPT",  "/upload/video410ROGERJS.mp4", "JE CHERCHE UN DEVELOPPEUR JAVASCRIPT ORIGINAL", "2018-11-28", 03);
 INSERT INTO OFFRE(titre_offre, video_offre, desc_offre, date_limite, type_offre)
-VALUES("RECHERCHE DEVELOPPEUR HTML",  "/upload/video411BERTRANDHTML.mp4", "JE CHERCHE UN DEVELOPPEUR HTML CURIEUX", "2018-11-29", 01);
+VALUES("Administrateur Réseau",  "/upload/video411BERTRANDHTML.mp4", "Poste en CDI a pourvoir, profil polyvalent recherché connaissances LAN, WAN. La maitrise des protocoles de sécurité des sevreurs web/base de données serait indispensables. Par groupe de 5, vous vous déplacerez vers le client afin d'offir vos services. Paie allant de 1500€ à 1780€ brut. Horaire allant de 35h a 42h.", "2018-11-08", 01);
 INSERT INTO OFFRE(titre_offre, video_offre, desc_offre, date_limite, type_offre)
-VALUES("RECHERCHE DEVELOPPEUR JAVA",  "/upload/video412LORISJAVA.mp4", "JE CHERCHE UN DEVELOPPEUR JAVA PROFESSIONEL", "2018-11-30", 01);
+VALUES("Chef de Projet",  "/upload/video412LORISJAVA.mp4", "Niveau BAC +5, et une experience de 6 ans est demandé. Vous serez respponsable de 10 a 20 responsable réseau et développement. Rédaction et compte rendu de chaque reunions en accord avec les normes de l'entreprise que l'on vous communiquera. La rémunération est de 5500€ brut, a 40h par semaine.", "2018-11-09", 01);
+
 
 -- DONNEES CANDIDATURE --
 INSERT INTO CANDIDATURE(lettre_motiv, cv_candid, video_reponse)
