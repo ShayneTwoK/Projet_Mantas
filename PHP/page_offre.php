@@ -11,7 +11,8 @@
 <html>
 <head>
   <title>Page Offre</title>
-  <meta charset=utf-8" />
+  <meta charset="utf-8">
+
   <link rel="stylesheet" type="text/css" href="../CSS/style_page.css" />
   <script type="text/javascript" src="../js/jquery.js"></script>
 

@@ -65,6 +65,7 @@ VALUES("Administrateur Réseau",  "/upload/video411BERTRANDHTML.mp4", "Poste en 
 INSERT INTO OFFRE(titre_offre, video_offre, desc_offre, date_limite, type_offre)
 VALUES("Chef de Projet",  "/upload/video412LORISJAVA.mp4", "Niveau BAC +5, et une experience de 6 ans est demandé. Vous serez respponsable de 10 a 20 responsable réseau et développement. Rédaction et compte rendu de chaque reunions en accord avec les normes de l'entreprise que l'on vous communiquera. La rémunération est de 5500€ brut, a 40h par semaine.", "2018-11-09", 01);
 
+
 -- DONNEES CANDIDATURE --
 INSERT INTO CANDIDATURE(lettre_motiv, cv_candid, video_reponse)
 VALUES("motivCharles.pdf", "cvCharles.pdf", "videoCharles.mp4");
