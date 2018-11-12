@@ -11,8 +11,7 @@
 <html>
 <head>
   <title>Page Offre</title>
-  <meta charset="utf-8">
-
+  <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="../CSS/style_page.css" />
   <script type="text/javascript" src="../js/jquery.js"></script>
 
@@ -27,7 +26,7 @@
       <div class="offre">
         <h3><?= $o['titre_offre']?></h3>
             <div class="desc"><?=$o['desc_offre']?></div>
-            <span class="plusmoins">Voir plus...</span>
+            <div class="plusmoins">Voir plus...</div>
 
       </div>
     <?php
