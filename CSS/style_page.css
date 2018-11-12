@@ -6,18 +6,17 @@
 */
 h1
 {
-  margin-left: 50px; /**/
+  margin-left: 50px;
 }
 .offre
 {
-  border: 2px solid black;
   display: flex;
-  flex-direction: row;
+  border: 2px solid black;
+  flex-direction: column;
   box-shadow: -7px 7px 20px Gray;
   margin: 20px 0 10px 50px;
   max-width: 50%;
   min-width: 40%;
-  flex-wrap: wrap;
 }
 h3
 {
@@ -37,18 +36,18 @@ h3:hover
   font-family: Calibri;
   font-weight: bold;
   font-size: 0.9em;
-  margin: 0;
   padding-left: 5px;
   margin-right: 15px;
 
 }
 .plusmoins
 {
-  display: inline-flex;
-  align-self: flex-end;
   color: black;
   font-family: Calibri;
   font-weight: bold;
   border: 2px groove blue;
-  position: relative;
+  max-width: 90px;
+  margin-left:auto; /* décide de l'espacement a gauche */
+  margin-right:0 /* et positionne tout a droite la div parent*/
+  white-space: nowrap; /* empeche le retour a la ligne de la div */
 }
