@@ -80,17 +80,14 @@
             }
         }
         </style>
-        <!-- Du css regroupé dans des balises style...dans ton html...
-        ok le copié collé mais tu pourrais pas le mettre dans un fichier .class
-        histoire que sa soit lisible ??? -->
     </head>
     <body>
-        <form method="post" class="connexion" action="connexionreussi.php">
+        <form method="post" class="connexion" action="valide_connexion.php">
             <div class="container">
                 <h1>Se connecter</h1>
-
+                
                 <hr>
-                <label for="uname"><b>Mail</b></label>
+                <label for="uname"><b>Login</b></label>
                 <input type="email" name="login" required="required" placeholder="Entrez votre login">
 
                 <label for="psw"><b>Password</b></label>
@@ -101,9 +98,7 @@
                   <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label><br/><br/>
                 Vous n'avez pas de compte ?<br/><br/>
-                <!-- c'est nouveau sa de marqué en brut sans balise un texte en html...
-                      N'importe quoi.-->
-               <a class="buttonsins" href="inscription.php">S'inscrire</a>
+               <a class="buttonsins" href="sinscrire.php">S'inscrire</a>
             </div>
         </form>
     </body>
