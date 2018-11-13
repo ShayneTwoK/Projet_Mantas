@@ -85,10 +85,10 @@
         <form method="post" class="connexion" action="valide_connexion.php">
             <div class="container">
                 <h1>Se connecter</h1>
-                
+
                 <hr>
                 <label for="uname"><b>Login</b></label>
-                <input type="email" name="login" required="required" placeholder="Entrez votre login">
+                <input type="email" name="login" value="<?php if (isset($_POST['login'])){echo $_POST['login'];}?>" required="required" placeholder="Entrez votre login">
 
                 <label for="psw"><b>Password</b></label>
                 <input type="password" name="pass" required="required" placeholder="Entre votre mot de passe">
