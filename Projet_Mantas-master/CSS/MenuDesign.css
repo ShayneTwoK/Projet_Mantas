@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Niramit', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #c3c3c3;
+  font-size: 120%;
+  border-right: 1px solid #c3c3c3;
+  display: inline-block;
+  height: 93%;
+  text-align: center;
+  line-height: 300%;
+  padding: 0.5% 2% 0 2%;
+}
+
+a:hover {
+  color: #95350c;
+}
+
+.Menu {
+  position: absolute;
+  margin-left: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.header__icon:hover {
+  color: #95350c;
+  border-bottom: 2px solid #95350c;
+  background-color: black;
+}
+
+.header {
+  background-color: #454e67;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header h2 {
+  color: #f55c0e;
+  float: left;
+  position: relative;
+  font-size: 150%;
+  padding-right: 50%;
+  margin-left: 4%;
+}
+
+.header__icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Menu {
+    margin-left: 40%;
+  }
+
+  a{
+    height: 95%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Menu {
+    margin-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .header {
+    background-color: #454e67;
+    position: absolute;
+    position: fixed;
+  }
+  .header__icon {
+    display: block;
+    margin-left: 90%;
+    margin-top: 2%;
+    font-size: 25px;
+    border: none !important;
+    background-color: #454e67 !important;
+  }
+  .Menu {
+    position: absolute;
+    background-color: #454e67;
+    width: 30%;
+    height: 1000px;
+    margin-left: 70%;
+    transform: translateX(100%);
+    opacity: 0.9;
+  }
+  a {
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    line-height: 200%;
+    border-bottom: 1px solid #454e67;
+    border-right: none;
+    float: none;
+    height: 4%;
+  }
+  a:hover {
+    border-bottom: 1px solid #95350c;
+  }
+
+  .menusidebar {
+    transform: translateX(-100%);
+  }
+
+  .Menu.is-open {
+    transform: translateX(0%);
+    transition: 0.5s;
+    padding-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header__icon {
+    margin-top: 3%;
+  }
+}
